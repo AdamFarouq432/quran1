@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>موقعي الديني</title>
+  <link rel="stylesheet" href="pro.css" />
+</head>
+<body>
+
+  <button class="mode-toggle" onclick="toggleMode()">الوضع الليلي</button>
+
+  <div class="card-container">
+    <div class="bismillah">﷽</div>
+    <div class="sections">
+      <div class="box">الأذكار</div>
+      <div class="box">الأحاديث</div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
